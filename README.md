@@ -34,14 +34,35 @@ This mock analysis is centered on analyzing school district data including schoo
     Replacing the ninth grade scores with NaNs for Thomas High School had the following effects:  
 
   - Math and reading scores by grade
+     - Thomas High School's average math score went from 83.418 to 83.3509. 
+     - Thomas High School's average reading score went from 83.849 to 83.896.
+     - The overall math and reading averages remained fairly the same.
   
-  - scores by school spending 
+  - scores by school spending
+  
+     ![image](https://user-images.githubusercontent.com/84201614/124755636-3ace1100-def1-11eb-9251-c18b517275a0.png)
+
+     - The new school spending summary appears to be unaffected or not affected enough to reflect significant changes.
   
   - scores by school size
-  
+    
+    ![image](https://user-images.githubusercontent.com/84201614/124756111-bd56d080-def1-11eb-9cde-ed0d88b141cc.png)
+    
+     - The scores by school size also have minor changes if any.
+    
   - scores by school type
 
+    ![image](https://user-images.githubusercontent.com/84201614/124756298-ec6d4200-def1-11eb-9dea-389aa1069bdb.png)
+    
+    - No significant changes for school type.
 
+## Summary:
+- Overall changes to the data when replacing Thomas High school 9th grade test scores with NaN:
+    - Average math score declined by .001%
+    - Average reading score did not change
+    - Overall school averages did not change
+    - Overall passing reading % declined by .002%
+    - Overall passing reading % increased by .001%
+    - Thomas High School overall passing % declined by .003%
 
-
-## Summary: Summarize four changes in the updated school district analysis after reading and math scores for the ninth grade at Thomas High School have been replaced with NaNs.
+Overall the were minor changes when replacing Thomas High School 9th grade scores with NaNs. The most significant change appears to be the overall passing % for Thomas High School. The rest of the changes were minor, however, the replacement allowed for a more clean and accurate school analysis.
